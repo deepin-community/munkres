@@ -1,0 +1,10 @@
+---
+Bug-Database: https://github.com/bmc/munkres/issues
+Bug-Submit: https://github.com/bmc/munkres/issues/new
+Changelog: https://github.com/bmc/munkres/blob/master/CHANGELOG.md
+Documentation: https://software.clapper.org/munkres/
+Registry:
+  - Name: PyPI
+    Entry: munkres
+Repository: https://github.com/bmc/munkres.git
+Repository-Browse: https://github.com/bmc/munkres

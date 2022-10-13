@@ -1,0 +1,31 @@
+Source: munkres
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-python,
+ python3-all,
+ python3-pytest,
+ python3-setuptools
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://software.clapper.org/munkres/
+Vcs-Git: https://salsa.debian.org/python-team/packages/munkres.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/munkres
+
+Package: python3-munkres
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: munkres algorithm for the Assignment Problem - Python 3 library
+ The Munkres module provides an implementation of the Munkres algorithm (also
+ called the Hungarian algorithm or the Kuhn-Munkres algorithm), useful for
+ solving the Assignment Problem.
+ .
+ The Assignment Problem:
+ Let C be an nxn matrix representing the costs of each of n workers to perform
+ any of n jobs. The Assignment Problem is to assign jobs to workers in a way
+ that minimizes the total cost.
+ .
+ This package contains the munkres module for Python 3.x.
